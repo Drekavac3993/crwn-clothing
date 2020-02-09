@@ -2,18 +2,21 @@ export default [
   {
     title: "hats",
     imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    size: "large",
     id: 1,
     linkUrl: "hats"
   },
   {
     title: "jackets",
     imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    size: "large",
     id: 2,
     linkUrl: ""
   },
   {
     title: "sneakers",
     imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    size: "large",
     id: 3,
     linkUrl: ""
   },

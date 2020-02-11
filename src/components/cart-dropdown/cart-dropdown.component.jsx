@@ -1,5 +1,6 @@
 import React from "react";
 import CustomButton from "../custom-button/custom-button.component";
+import CartItem from "../cart-item/cart-item.component";
 import "./cart-dropdown.styles.scss";
 
 const CartDropdown = () => (
@@ -9,4 +10,4 @@ const CartDropdown = () => (
   </div>
 );
 
-export default CartDropdown
+export default CartDropdown;

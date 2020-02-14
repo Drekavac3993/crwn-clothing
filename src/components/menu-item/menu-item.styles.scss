@@ -22,8 +22,12 @@
     }
   }
 
+  &.medium {
+    height: 280px;
+  }
+
   &.large {
-    height: 380px;
+    height: 480px;
   }
 
   &:first-child {

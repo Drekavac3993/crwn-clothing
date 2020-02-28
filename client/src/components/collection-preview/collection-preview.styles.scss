@@ -13,3 +13,22 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .collection-preview {
+    .title {
+      @media screen and (max-width: 800px) {
+        margin-bottom: 15px;
+      }
+    }
+
+    .preview {
+      @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

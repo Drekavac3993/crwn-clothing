@@ -50,3 +50,15 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .collection-item {
+    width: calc(100% - 5px);
+
+    .collection-footer {
+      @media screen and (max-width: 800px) {
+        margin-bottom: 13px;
+      }
+    }
+  }
+}

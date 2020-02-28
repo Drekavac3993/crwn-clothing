@@ -16,4 +16,17 @@
       margin-bottom: 30px;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & .collection-item {
+        width: calc(100% - 11px);
+      }
+    }
+  }
 }

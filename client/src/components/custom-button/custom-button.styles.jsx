@@ -32,6 +32,9 @@ const googleSignInStyles = css`
   &:hover {
     background-color: #357ae8;
   }
+  @media screen and (max-width: 800px) {
+    margin-left: 9px;
+  }
 `;
 
 const getButtonStyles = props => {
@@ -56,6 +59,10 @@ export const CustomButtonContainer = styled.button`
   cursor: pointer;
   display: flex;
   justify-content: center;
-
   ${getButtonStyles}
+
+  @media screen and (max-width: 800px) {
+    min-width: 80px;
+    padding: 0 25px;
+  }
 `;

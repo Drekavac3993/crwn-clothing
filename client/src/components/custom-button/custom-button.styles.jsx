@@ -32,6 +32,7 @@ const googleSignInStyles = css`
   &:hover {
     background-color: #357ae8;
   }
+
   @media screen and (max-width: 800px) {
     margin-left: 9px;
   }

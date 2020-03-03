@@ -9,7 +9,7 @@ export const CollectionPreviewContainer = styled.div`
 export const TitleContainer = styled.h1`
   font-size: 28px;
   margin-bottom: 25px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #999;
 
   @media screen and (max-width: 800px) {
     margin-bottom: 15px;

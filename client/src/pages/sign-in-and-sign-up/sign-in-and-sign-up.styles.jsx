@@ -10,4 +10,5 @@ export const SignInAndSignUpContainer = styled.div`
     width: 100%;
     flex-direction: column;
     justify-content: center;
+  }
 `;
